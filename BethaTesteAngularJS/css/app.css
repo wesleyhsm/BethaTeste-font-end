@@ -1,0 +1,84 @@
+body, html, p, div, span, i, h1, h2, h3 {
+	color: #414141;
+}
+
+.jumbotron {
+	width: 1000px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h3 {
+	margin-bottom: 30px;
+}
+.table {
+	margin-top: 20px;
+}
+.form-control {
+	margin-bottom: 5px;
+}
+.selecionado {
+	background-color: yellow;
+}
+.negrito {
+	font-weight: bold;
+}
+hr {
+	border-color: #999;
+}
+
+header {
+	background: #8fb6ce;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+header input.form-control {
+	float: left;
+	width: 100%;
+	margin: 8px 0 0 0;
+}
+/* header */
+header .text {
+	text-align: right;
+	padding-top: 12px;
+	font-weight: bold;
+}
+header .text a {
+	color: #414141
+}
+
+/* content */
+.item {
+	border: 1px solid #ccc;
+	margin-bottom: 30px;
+	padding: 10px;
+	text-align: center;
+}
+.item h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+}
+.item .price {
+	color: red;
+}
+.item .descr {
+	font-size: 14px;
+color: #333;
+}
+.item button {
+	width: 100%;
+}
+
+/* footer */
+footer {
+	background: #414141;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	padding: 15px 0 5px 0;
+}
+footer p {
+	color: #FFF;
+}
